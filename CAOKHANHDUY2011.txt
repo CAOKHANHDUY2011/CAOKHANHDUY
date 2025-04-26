@@ -11,7 +11,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id= 115940619524632"
+ImageButton.Image = "http://www.roblox.com/asset/?id=115940619524632"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
@@ -26,9 +26,9 @@ local Window = Fluent:CreateWindow({
     Title = "Script Tổng Hợp",
     SubTitle = "By CAO KHÁNH DUY",
     TabWidth = 157,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(400, 300),
     Acrylic = true,
-    Theme = "Amethyst",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -40,8 +40,8 @@ local Tabs = {
        Main5=Window:AddTab({ Title="lin tinh" }),
 }
     Tabs.Main0:AddButton({
-    Title = "Discord",
-    Description = "TBoyRoblox Community",
+    Title = "LINK BIO",
+    Description = "linkbio.co/CAOKHANHDUY",
     Callback = function()
         setclipboard("linkbio.co/CAOKHANHDUY")
     end
